@@ -1,0 +1,29 @@
+# 책 원본 (저작권 문제 + 용량) - 폴더만 남기고 내용은 올리지 않음
+books/*
+!books/.gitkeep
+*.pdf
+*.epub
+
+# 책 내용이 담긴 결과물 (검색 DB, 추출 텍스트)
+library_data/
+data/
+db/
+text/
+done.json
+failed.log
+
+# 파이썬 / 가상환경
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# 파인튜닝 학습 데이터와 모델 파일
+train.jsonl
+*.gguf
+outputs/
+
+# 기타
+.env
+.DS_Store
+Thumbs.db
